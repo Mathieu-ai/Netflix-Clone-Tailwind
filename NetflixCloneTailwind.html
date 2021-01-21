@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link
+      href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/674ccd36be.js"
+      crossorigin="anonymous"
+    ></script>
+    <script type="text/javascript" src="/tailwind.config.js"></script>
+    <link
+      rel="shortcut icon"
+      type="image/png"
+      href="./images/NetflixLogo.png"
+    />
+    <title>Netflix Duplicate</title>
+  </head>
+  <body style="background: rgb(0, 0, 0)">
+    <div
+      class="lg:text-white lg:fixed lg:top-0 lg:bg-gradient-to-b lg:from-black lg:w-full lg:z-50"
+    >
+      <div
+        class="lg:px-16 lg:flex lg:my-5 lg:flex-wrapp items-center md:flex-row items-center"
+      >
+        <a>
+          <img
+            src="https://assets.stickpng.com/images/580b57fcd9996e24bc43c529.png"
+            class="-mt-4 mx-5 w-1/3 md:w-1/4 lg:w-20 transform scale-110"
+            alt="undifined"
+          />
+        </a>
+        <ul class="hidden lg:flex space-x-3 ml-12">
+          <li class="font-semibold">Home</li>
+          <li>TV Shows</li>
+          <li>Movies</li>
+          <li>New & Popular</li>
+          <li>My Lists</li>
+        </ul>
+        <nav
+          class="ml-auto hidden lg:flex space-x-6 items-center justify-center"
+        >
+          <i class="transform scale-110 fas fa-search"></i>
+          <p class="font-semibold">KIDS</p>
+          <i class="transform scale-110 fas fa-gift"></i>
+          <i class="transform scale-110 fas fa-bell"></i>
+          <button class="flex items-center">
+            <img
+              class="w-10 border-2 border-gray-900"
+              src="https://pbs.twimg.com/profile_images/1229818782811594752/eHwlKzVK_400x400.jpg"
+              alt="undifined"
+            />
+            <i class="transform rotate-180 ml-1 -mt-4 fas fa-sort-up"></i>
+          </button>
+        </nav>
+      </div>
+    </div>
+    <div class="relative">
+      <div
+        class="absolute lg:h-full lg:px-16 lg:h-full lg:flex lg:items-center lg:justify-start"
+      >
+        <div class="lg:relative lg:w-2/5 lg:space-y-4 lg:py-12">
+          <img
+            class="w-1/3 mx-5 my-3 lg:transform scale-110 lg:w-4/5"
+            src="https://freepngimg.com/thumb/one_piece/22969-5-one-piece-logo-photos.png"
+            alt="undifined"
+          />
+          <p
+            class="text-white font-semibold mx-5 my-40 p-10 md:text-white text-semibold lg:text-lg lg:font-semibold lg:text-white"
+          >
+            The series focuses on Monkey D. Luffy, a young man who, inspired by
+            his childhood idol and powerful pirate "Red Haired" Shanks, sets off
+            on a journey from the East Blue Sea to find the titular treasure and
+            proclaim himself the King of the Pirates.
+          </p>
+          <div class="-mx-1 -my-56 p-20 lg:transform scale-110">
+            <div
+              class="flex space-x-5 lg:flex lg:space-x-4 lg:flex-row lg:w-full lg:-my-24"
+            >
+              <button
+                class="py-2 items-center shadow-md rounded-lg bg-white space-x-2 px-3 lg:mt-5 lg:justify-center lg:flex lg:w-32"
+              >
+                <i class="fas fa-play"></i>
+                <span class="text-gray-800 font-semibold">Play</span>
+              </button>
+              <button
+                class="px-3 lg:mt-5 items-center shadow-md rounded-lg bg-gray-800 bg-opacity-50 lg:space-x-2 py-2 lg:justify-center lg:flex lg:w-auto"
+              >
+                <i class="text-white fas fa-info-circle"></i>
+                <span class="text-white font-semibold">More info</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="absolute w-full h-64 bottom-0 bg-gradient-to-t from-black"
+      ></div>
+      <video
+        class="-mt-4 lg:-mt-12 w-full h-64 lg:h-screen object-cover lg:-mt-8"
+        autoplay
+        muted
+        loop
+      >
+        <source
+          class="w-full object-contain"
+          src="./images/one-piece-ship-live-wallpaper.mp4"
+          type="video/mp4"
+        />
+      </video>
+    </div>
+  </body>
+</html>
